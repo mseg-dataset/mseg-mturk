@@ -1,0 +1,49 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="form-group">
+			<label class="btn btn-default img-btn">
+				<span class="clearfix img-label">
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="house" />
+				<span class="pull-left">
+					<strong>House |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="building_other" />
+				<span class="pull-left">
+					<strong>Building_other |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="skyscraper" />
+				<span class="pull-left">
+					<strong>Skyscraper |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="booth" />
+				<span class="pull-left">
+					<strong>Booth |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="tower" />
+				<span class="pull-left">
+					<strong>Tower |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="grandstand" />
+				<span class="pull-left">
+					<strong>Grandstand |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="bridge" />
+				<span class="pull-left">
+					<strong>Bridge |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="seat" />
+				<span class="pull-left">
+					<strong>Seat |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="None_of_these" />
+				<span class="pull-left">
+					<strong>None_of_these |</strong>
+				</span>
+				</span> 
+				<span class="img-wrap"> 
+					<img alt="Image A" src="${image_url}"  style="width: 1100px; " /> 
+				</span> 
+			</label>
+		</div>
+	</div>
+</div>

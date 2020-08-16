@@ -1,0 +1,69 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="form-group">
+			<label class="btn btn-default img-btn">
+				<span class="clearfix img-label">
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="banana" />
+				<span class="pull-left">
+					<strong>Banana |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="apple" />
+				<span class="pull-left">
+					<strong>Apple |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="sandwich" />
+				<span class="pull-left">
+					<strong>Sandwich |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="orange" />
+				<span class="pull-left">
+					<strong>Orange |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="broccoli" />
+				<span class="pull-left">
+					<strong>Broccoli |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="carrot" />
+				<span class="pull-left">
+					<strong>Carrot |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="hot dog" />
+				<span class="pull-left">
+					<strong>Hot dog |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="pizza" />
+				<span class="pull-left">
+					<strong>Pizza |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="donut" />
+				<span class="pull-left">
+					<strong>Donut |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="cake" />
+				<span class="pull-left">
+					<strong>Cake |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="fruit-other" />
+				<span class="pull-left">
+					<strong>Fruit-other |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="food-other" />
+				<span class="pull-left">
+					<strong>Food-other |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="vegetation" />
+				<span class="pull-left">
+					<strong>Vegetation |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="None_of_these" />
+				<span class="pull-left">
+					<strong>None_of_these |</strong>
+				</span>
+				</span> 
+				<span class="img-wrap"> 
+					<img alt="Image A" src="${image_url}"  style="width: 1100px; " /> 
+				</span> 
+			</label>
+		</div>
+	</div>
+</div>

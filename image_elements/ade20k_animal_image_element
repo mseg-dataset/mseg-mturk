@@ -1,0 +1,61 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="form-group">
+			<label class="btn btn-default img-btn">
+				<span class="clearfix img-label">
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="bird" />
+				<span class="pull-left">
+					<strong>Bird |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="cat" />
+				<span class="pull-left">
+					<strong>Cat |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="dog" />
+				<span class="pull-left">
+					<strong>Dog |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="horse" />
+				<span class="pull-left">
+					<strong>Horse |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="sheep" />
+				<span class="pull-left">
+					<strong>Sheep |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="cow" />
+				<span class="pull-left">
+					<strong>Cow |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="elephant" />
+				<span class="pull-left">
+					<strong>Elephant |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="bear" />
+				<span class="pull-left">
+					<strong>Bear |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="zebra" />
+				<span class="pull-left">
+					<strong>Zebra |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="giraffe" />
+				<span class="pull-left">
+					<strong>Giraffe |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="animal-other" />
+				<span class="pull-left">
+					<strong>Animal-other |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="None_of_these" />
+				<span class="pull-left">
+					<strong>None_of_these |</strong>
+				</span>
+				</span> 
+				<span class="img-wrap"> 
+					<img alt="Image A" src="${image_url}"  style="width: 1100px; " /> 
+				</span> 
+			</label>
+		</div>
+	</div>
+</div>

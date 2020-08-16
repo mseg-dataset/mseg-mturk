@@ -1,0 +1,45 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="form-group">
+			<label class="btn btn-default img-btn">
+				<span class="clearfix img-label">
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="stool" />
+				<span class="pull-left">
+					<strong>Stool |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="seat" />
+				<span class="pull-left">
+					<strong>Seat |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="swivel-chair" />
+				<span class="pull-left">
+					<strong>Swivel-chair |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="armchair" />
+				<span class="pull-left">
+					<strong>Armchair |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="chair-other" />
+				<span class="pull-left">
+					<strong>Chair-other |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="bench" />
+				<span class="pull-left">
+					<strong>Bench |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="multiple-categories-highlighted" />
+				<span class="pull-left">
+					<strong>Multiple-categories-highlighted |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="None_of_these" />
+				<span class="pull-left">
+					<strong>None_of_these |</strong>
+				</span>
+				</span> 
+				<span class="img-wrap"> 
+					<img alt="Image A" src="${image_url}"  style="width: 1100px; " /> 
+				</span> 
+			</label>
+		</div>
+	</div>
+</div>

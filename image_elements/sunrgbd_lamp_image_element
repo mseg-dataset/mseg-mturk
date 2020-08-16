@@ -1,0 +1,37 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<div class="form-group">
+			<label class="btn btn-default img-btn">
+				<span class="clearfix img-label">
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="sconce" />
+				<span class="pull-left">
+					<strong>Sconce |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="chandelier" />
+				<span class="pull-left">
+					<strong>Chandelier |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="lamp" />
+				<span class="pull-left">
+					<strong>Lamp |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="light-other" />
+				<span class="pull-left">
+					<strong>Light-other |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="multiple-categories-highlighted" />
+				<span class="pull-left">
+					<strong>Multiple-categories-highlighted |</strong>
+				</span>
+				<input autocomplete="off" class="pull-left img-options" id="itemA" name="choice_i" required="" type="radio" value="None_of_these" />
+				<span class="pull-left">
+					<strong>None_of_these |</strong>
+				</span>
+				</span> 
+				<span class="img-wrap"> 
+					<img alt="Image A" src="${image_url}"  style="width: 1100px; " /> 
+				</span> 
+			</label>
+		</div>
+	</div>
+</div>
