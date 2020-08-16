@@ -1,0 +1,23 @@
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<section class="container" id="ImageAorB"><!-- Instructions -->
+
+
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6">
+		<label class="btn btn-default img-btn">
+
+			 <p><b>Please read the full instructions below very carefully. This is critical to getting your job approved and getting paid. Afterwards, inspect the images. </b></p>
+            <p><font color="red">We have embedded into each task a few images that we have labeled ourselves. </font></p>
+            <p><font color="red">If you cannot label these randomly selected images correctly, our system will automatically reject the submitted HIT, so please be precise. </font></p>
+            <p> <b> To which category does the highlighted region belong? </b> </p>
+
+			<a href="http://www.google.com" 
+			  target="popup" 
+			  onclick="window.open('INSTRUCTIONS_URL','popup','width=1200,height=1200'); return false;">
+			    <h1>View Instructions Here</h1>
+			</a>
+		</label>
+	</div>
+</div>
+
+
