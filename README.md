@@ -1,5 +1,5 @@
 
-This repo contains the **Amazon Mechanical Turk workflow scripts** for the paper:
+This repo contains the **Amazon Mechanical Turk (AMT) workflow scripts** for the paper:
 
 **MSeg: A Composite Dataset for Multi-domain Semantic Segmentation** (CVPR 2020, Official Repo) [[PDF]](http://vladlen.info/papers/MSeg.pdf)
 <br>
@@ -15,7 +15,7 @@ This repo is the fourth of 4 repos that introduce our work. It provides utilitie
 - [` mseg-api`](https://github.com/mseg-dataset/mseg-api): utilities to download the MSeg dataset, prepare the data on disk in a unified taxonomy, on-the-fly mapping to a unified taxonomy during training.
 - [`mseg-semantic`](https://github.com/mseg-dataset/mseg-semantic): provides HRNet-W48 pre-trained models and training code (sufficient to train a winning entry on the [WildDash](https://wilddash.cc/benchmark/summary_tbl?hc=semantic_rob) benchmark)
 
-One additional repos will be introduced in April and May 2020:
+One additional repo will be introduced in August 2020:
 - `mseg-panoptic`: provides Panoptic-FPN and Mask-RCNN training, based on Detectron2
 
 <p align="left">
@@ -79,11 +79,11 @@ We design a careful workflow to ensure a high quality bar for annotations submit
 
 Our re-labeling workflow proceeds in 6 main stages:
 
-	(1) Hand-classify sentinels, and create BatchResult class with SentinelHIT specification.
-	(2) Run `mseg_mturk/publish_tasks.py` to generate HIT html, HIT csv, and instructions html.
-	(2) Submit HIT on AMT.
+	(1) Hand-classify sentinels for each task, and create a BatchResult class with SentinelHIT specification.
+	(2) Run `mseg_mturk/publish_tasks.py` to generate HIT html, HIT csv, and instructions html. Sentinels are embedded into the 100-image HIT csv.
+	(2) Submit HIT on Amazon Mechanical Turk (AMT).
 	(2) Analyze accuracy of each submitted HIT using `mseg_mturk/eval_result.py`. 
-		For each one, for all 100 images, check if sentinel.
+		For each one, for all 100 images, check if it is a sentinel.
 		If it is a sentinel, check correctness. Compute mean accuracy per HIT.
 		Set status in WorkerHITResult for each HIT to 'Approved' or 'Rejected'
 		based on 100% accuracy cutoff.
@@ -93,14 +93,15 @@ Our re-labeling workflow proceeds in 6 main stages:
 		make a list of assigned labels per URL. Also record the number of approved
 		observations per image.
 	(5) Take mode from approved, consider this the relabeled category.
-	(6) Record relabeled list for each (dataset, original_classname) tuple.
+	(6) Manually review batch quality.
+	(7) Record relabeled list for each (dataset, original_classname) tuple.
 
 
 ## Class Examplar Images
 
 Via Google Drive, we provide access to the class examplar images we provided to MTurk annotators in their instructions: [animals](https://drive.google.com/open?id=1o1sTZKEYwPmgLHR7Jh12khuEDcNVBCob), [rug vs. carpet](https://drive.google.com/drive/folders/1ulOaibRjqN5-qO11xpRwgVxsagi97IuS?usp=sharing), [cabinet, nightstand, desk, chest-of-drawers, wardrobe](https://drive.google.com/drive/folders/1asUB3zsvJAQ2_vmEF9LCjJizY7EimcVO?usp=sharing), [curtain vs. shower curtain](https://drive.google.com/open?id=1OyVAy-g9WCLUBFhgrJGDrYapISuLZOZX), [mountain vs. hill vs. snow](https://drive.google.com/open?id=11QnCNJVmdmMUejVh1IntdSyhMB-MSjWJ), [fence vs. guardrail](https://drive.google.com/open?id=1gl3HKs8txBnJ4l6wDlNuUnXjxzc-J52o), and [all other shattered classes](https://drive.google.com/open?id=1LLm0T8sB-jM4RBy_t4P1CM36imTycaul).
 
-## Example MTurk UI
+## Example MTurk UIs
 <p align="center">
   <img src="https://user-images.githubusercontent.com/16724970/85213302-8c2d5180-b32a-11ea-9cd0-e298d0897918.png" width="950">
   <img src="https://user-images.githubusercontent.com/16724970/85213174-c85fb280-b328-11ea-9261-6e860abc48c6.png" width="860">
@@ -112,7 +113,7 @@ Via Google Drive, we provide access to the class examplar images we provided to 
 If you find this code useful for your research, please cite:
 ```
 @InProceedings{MSeg_2020_CVPR,
-author = {Lambert, John and Zhuang, Liu and Sener, Ozan and Hays, James and Koltun, Vladlen},
+author = {Lambert, John and Liu, Zhuang and Sener, Ozan and Hays, James and Koltun, Vladlen},
 title = {{MSeg}: A Composite Dataset for Multi-domain Semantic Segmentation},
 booktitle = {Computer Vision and Pattern Recognition (CVPR)},
 year = {2020}
