@@ -1,0 +1,141 @@
+universal_classname	defn	img1_filename	img2_filename	img3_filename	img4_filename
+bird	warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings	bird_example1.jpeg	bird_example2.jpeg	bird4.jpg	
+cat	feline mammal usually having thick soft fur and no ability to roar: domestic cats	cat3.jpeg	cat1.jpeg	cat2.jpeg	
+dog	a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds	dog1.jpeg	dog2.jpeg	dog3.jpeg	
+horse	solid-hoofed herbivorous quadruped domesticated since prehistoric times	horse1.jpeg	horse2.jpeg	horse3.jpeg	
+sheep	woolly usually horned ruminant mammal related to the goat	sheep1.jpeg	sheep2.jpeg		
+cow	cattle that are reared for their meat	cow1.jpeg	cow2.jpeg		
+elephant	five-toed pachyderm	elephant1.jpeg	elephant2.jpeg		
+bear	massive plantigrade carnivorous or omnivorous mammals with long shaggy coats and strong claws	bear1.jpeg	bear2.jpeg	bear3.jpeg	
+zebra	any of several fleet black-and-white striped African equines	zebra1.jpeg	zebra2.jpeg		
+giraffe	tallest living quadruped;  having a spotted coat and small horns and very long neck and legs  of savannahs of tropical Africa.	giraffe1.jpeg	giraffe2.jpeg		
+animal-other	"Any animal that is not a bird	 cat	 dog	 horse	 sheep	 cow	 elephant	 bear	 zebra	 or giraffe"	animal-other1.jpeg	animal-other2.jpeg	animal-other3.jpeg	
+motorcyclist	a human relying on a motorcycle/moped for movement. Must be actively riding the motorcycle/moped (not standing nearby it).	motorcyclist1.jpeg	motorcyclist2.jpeg	motorcyclist3.jpeg	
+motorcyclist	also includes motorcyclist riding behind driver	motorcyclist_example20.jpg			
+bicyclist	a human relying on a bicycle for movement. Must be actively riding the bicycle (not standing nearby it)	bicyclist1.jpeg	bicyclist2.jpeg	bicyclist3.jpeg	
+rider-other	"a human relying upon a segway, skateboards, electric scooter, lawn mower, rickshaw, wheelchair etc (any other device that is not a motorcycle, bicycle, or vehicle) for movement on land."	other-rider1.jpeg	other-rider2.jpeg	other-rider3.jpeg	
+rider-other		rider-other-4.jpg			
+person-non-rider	"a person includes any other kind of human drivers, vehicle passengers, or riders of surfboards, snow skis, horses,  (inline) skates, or convertibles."	person1.jpeg	person2.jpeg	person3.jpeg	
+person-non-rider		person-nonrider-1.jpeg	person-nonrider-2.jpeg	person-nonrider-3.jpeg	
+cup	a container for holding liquids while drinking. Includes mugs and could be made of plastic or glass or ceramic or paper or styrofoam. Cups include drinking glasses without a stem; if the cup/glass has a stem it is a wine glass	cup1.jpeg	cup2.jpeg	cup3.jpeg	
+wine_glass	a glass that has a stem and in which wine is served	wineglass1.jpeg	wineglass2.jpeg	wineglass3.jpeg	
+nightstand	"a small low bedside table, typically having drawers. a small bedside table or stand"	nightstand1.jpeg	nightstand6.jpeg	nightstand9.jpeg	
+table	"A piece of furniture consisting of a smooth flat slab fixed on legs. A piece of furniture with a flat top and one or more legs, providing a level surface on which objects may be placed, and that can be used for such purposes as eating, writing, working, or playing games."	table3.jpeg	table4.jpeg	table5.jpeg	
+desk	"A piece of furniture with a flat or sloped surface with drawers, at which one can read, write, or do other work. A table, frame, or case with a sloping or horizontal surface especially for writing and reading and often with drawers, compartments, and pigeonholes"	desk2.jpeg	desk3.jpeg	desk5.jpeg	
+desk-and-table	furniture that could be considered both a desk or a table	desk-table1.png	desk-table2.png	desk-table3.png	desk-table4.png
+bathroom-counter	"a long, flat, narrow surface in a bathroom at waist-height"	bathroom-counter1.jpeg	bathroom-counter2.jpeg	bathroom-counter3.jpeg	
+counter-other	"a long, flat, narrow surface used for making transactions in a store or in a home kitchen (fixed against a wall for preparing food)."	counter-other1.jpeg	counter-other2.jpeg	counter-other-3.jpeg	
+kitchen-island	an unattached counter in a kitchen that permits access from all sides	kitchen-island1.jpeg	kitchen-island2.jpeg	kitchen-island3.jpeg	
+table-annotation-error	"more than one type of object is highlighted in pink, or highlighted area is incorrect"	table-annotation-error3.jpeg	table-annotation-error2.jpeg		
+table-annotation-error		table-annotation-error4.jpeg	table-annotation-error5.jpeg		
+banana	elongated crescent-shaped yellow fruit with soft sweet flesh	banana1.jpeg	banana2.jpeg		
+apple	fruit with red or yellow or green skin and sweet to tart crisp whitish flesh	apple1.jpeg			
+sandwich	two (or more) slices of bread with a filling between them	sandwich1.jpeg	sandwich2.jpeg		
+orange	round yellow to orange fruit of any of several citrus trees	orange1.jpeg	orange2.jpeg		
+broccoli	plant with dense clusters of tight green flower buds	broccoli1.jpeg	broccoli2.jpeg		
+carrot	deep orange edible root of the cultivated carrot plant	carrot1.jpeg	carrot2.jpeg		
+hot dog	a frankfurter served hot on a bun	hotdog1.jpeg	hotdog2.jpeg		
+pizza	Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese	pizza1.jpeg	pizza2.jpeg		
+donut	a small ring-shaped friedcake	donut1.jpg	donut2.jpeg	donut3.jpeg	
+cake	"baked goods made from or based on a mixture of flour, sugar, eggs, and fat"	cake1.jpeg	cake2.jpeg	cake3.jpeg	
+fruit-other	"any fruit not an apple, orange, or banana (e.g. pineapple, melon, pear, kiwi, avocado would qualify)"	fruitother1.jpeg	fruitother2.jpeg		
+food-other	any other sort of food not listed above.	food-other1.jpeg	food-other2.jpeg	food-other3.jpeg	
+vegetation	"plants considered collectively, especially those found in a particular area. Includes thick plant growth, bushes and trees (any dense plants higher than lawn grass)"	vegetation1.jpeg	vegetation2.jpeg	vegetation3.jpeg	
+vegetation		vegetation4.jpg			
+sconce	"a decorative wall bracket/object for holding lightbulbs, candles or other sources of light. Must be attached to the side of a wall. "	sconce3.jpeg	sconce4.jpeg	sconce5.jpeg	
+sconce		sconce1.jpeg	sconce6.jpeg		
+chandelier	branched lighting fixture; often ornate; hangs from the ceiling	chandelier1.jpeg	chandelier2.jpeg	chandelier3.jpeg	
+lamp	"a device for giving light that has a covering, but allows light to shine through or around. Could be freestanding on a floor and be covered with a shade, or could hang from the ceiling, or be placed on a table/desk/nightstand."	lamp1.jpeg	lamp3.jpeg	lamp4.jpeg	
+lamp		lamp5.jpeg	lamp6.jpeg		
+light-other	"Any other type of light, e.g. fluorescent ceiling lights, bathroom lights embedded into ceiling, etc."	light-other9.jpg	light-other8.jpg	light-other7.jpg	
+light-other		light-other6.jpg	light-other4.jpg	light-other3.jpg	
+stool	a simple seat without a back or arms; or a high seat at a bar without arms	stool3.jpeg	stool1.jpeg	stool4.jpeg	
+stool		stool5.jpeg			
+seat	"a space reserved for sitting (as in a theater, auditorium, stadium, on a train or airplane, or in a car). (that is not a bench, chair, stool, sofa, or armchair)"	seat1.jpeg	seat2.jpeg	seat3.jpeg	
+swivel-chair	a chair that swivels on its base. Can be turned around a central point to face in a different direction without moving the legs	swivel-chair1.jpeg	swivel-chair3.jpeg	swivel-chair4.jpeg	
+armchair	"chair with a support on each side for arms (that is not a swivel chair, seat, or sofa)"	armchair2.jpeg	armchair3.jpeg	armchair6.jpeg	
+chair-other	"Any chair that does NOT fall into the following categories: armchair, stool, seat, sofa. A chair is defined as a seat for one person, with a support for the back."	chair-other1.jpeg	chair-other2.jpeg	chair-other3.jpeg	
+streetlight	a lamp or light supported on a lamppost/pole; for illuminating a street	streetlight1.jpeg	streetlight2.jpeg	streetlight3.jpeg	
+annotation-error	"some other class (e.g. sidewalk, bicyclist, car, etc) is incorrectly annotated together with the person-non-rider class"	person-annotation-error1.jpeg	person-annotation-error2.jpeg	person-annotation-error3.jpeg	
+annotation-error		multiple-different-categories-highlighted1.jpeg	multiple-different-categories-highlighted2.jpg		
+cabinet	"A case or cupboard usually having doors and shelves. Can be found in a bathroom, kitchen, or other room. Cabinets are not for storing clothes."	cabinet20.jpeg	cabinet21.jpeg	cabinet22.jpeg	
+cabinet		cabinet23.jpeg	cabinet24.jpeg	cabinet25.jpeg	
+pool-table	game equipment consisting of a heavy table on which pool is played	pooltable1.jpeg	pooltable2.jpeg		
+chest-of-drawers	furniture with drawers for keeping clothes	chest-of-drawers-example-1.jpeg	chest-of-drawers-example-7.jpeg		
+chest-of-drawers		chest-of-drawers21.jpeg	chest-of-drawers20.jpeg		
+wardrobe	a tall piece of furniture that provides storage space for clothes; has a door and rails or hooks for hanging clothes	wardrobe-example-6.jpeg	wardrobe-example-1.jpeg		
+bench	a long seat for more than one person	bench1.jpeg	bench2.jpeg	bench3.jpeg	
+pier-wharf	Either a pier or a wharf. A pier is a platform/low-structure built out from the shore into the water and supported by piles; provides access to ships and boats. A wharf is a level quayside area to which a ship may be moored to load and unload at the edge of water.	pier-wharf1.jpeg	pier-wharf2.jpeg	pier-wharf3.jpeg	
+pier-wharf		pier-wharf4.jpeg	pier-wharf5.jpg		
+platform	"area alongside a railway track providing convenient access to trains, or a ramp/raised surface at a skatepark"	platform1.jpeg	platform2.jpeg	platform3.jpeg	
+platform		platform4.jpeg	platform5.jpeg	platform6.jpeg	
+platform		platform7.jpeg	platform8.jpeg		
+bridge	a structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc.	bridge1.jpeg	bridge2.jpeg	bridge3.jpeg	
+bridge		bridge4.jpeg	bridge5.jpg		
+fence	"a barrier, railing, or other upright structure, typically of metal, wire, or wood, enclosing an area of ground to mark a boundary, control access, or prevent escape. It is generally less sturdy than a guardrail and can be a taller, more flimsy structure."	fence-example-1.jpeg	fence-example-2.jpeg	fence-example-3.jpeg	
+fence		fence-example-5.jpeg	fence-example-6.jpeg	fence-example-7.jpeg	
+fence		fence-example-8.jpeg	fence-example-9.jpeg	fence-example-10.jpeg	
+guardrail	"strong fence/railing at the side of a road or in the middle of an expressway, intended to reduce the risk of serious accidents.  A guardrail sits low to the ground and is made of thick horizontal metal rails. "	guardrail-example-1.jpeg	guardrail-example-2.jpeg	guardrail-example-3.jpg	
+guardrail		guardrail-example-4.jpeg	guardrail-example-5.jpeg	guardrail-example-6.jpeg	
+guardrail		guardrail-example-7.jpeg	guardrail-example-8.jpeg	guardrail-example-9.jpeg	
+guardrail		guardrail-example-10.jpeg	guardrail-example-11.jpeg	guardrail-example-12.jpeg	
+guardrail		guardrail-example-13.jpeg	guardrail-example-14.jpeg		
+teddy-bear	Stuffed toy in the form of a bear. It is a type of plaything/child's toy (usually plush and stuffed with soft materials).	teddybear1.jpeg	teddybear2.jpeg	teddybear3.jpeg	
+plaything-other	"a child's toy, or something used like a toy, that is not a teddy bear."	plaything1.jpeg	plaything2.jpeg	plaything3.jpeg	
+plaything-other		plaything4.jpeg	plaything5.jpeg		
+building_other	"A building that is not a house or a skyscraper. Commercial, large residential and multi functional buildings qualify. A bulding is a structure that has a roof and walls and stands more or less permanently in one place"	building_other1.jpeg	building_other2.jpeg	building1.jpeg	
+building_other		building2.jpeg	building3.jpeg	building4.jpeg	
+building_other		building5.jpeg	building6.jpeg	building7.jpeg	
+aiport_runway	a strip of level paved surface where planes can take off and land	airport_runway1.jpeg	airport_runway2.jpeg	airport_runway3.jpeg	airport_runway4.jpeg
+runway_other	a narrow platform extending from the stage into the audience in a theater or nightclub etc.	runway_other1.jpeg	runway_other2.jpeg		
+pavement_sidewalk	walk consisting of a paved area for pedestrians; usually beside a street or roadway (not a road)	pavement_sidewalk1.jpeg	pavement_sidewalk2.jpeg	pavement_sidewalk4.jpeg	
+pavement_sidewalk		pavement_sidewalk5.jpeg	pavement_sidewalk3.jpeg		
+road	an open way (generally public) for travel or transportation of vehicles				
+booth		booth1.jpeg	booth2.jpeg	booth3.jpeg	
+booth		booth4.jpeg	booth5.jpeg	booth6.jpeg	
+booth		booth7.jpeg	booth8.jpeg		
+house	A dwelling that serves as living quarters for one or two families. Generally freestanding.	house1.jpeg	house2.jpeg	house3.jpeg	
+house		house4.jpeg	house5.jpeg	house6.jpeg	
+house		house7.jpeg	house8.jpeg	house9.jpeg	
+skyscraper	a very tall building with many stories (must have at least 40 floors)	skyscraper1.jpeg	skyscraper2.jpeg	skyscraper3.jpeg	
+skyscraper		skyscraper4.jpeg	skyscraper5.jpeg		
+tower	"tall building such as a flight control tower or cell phone tower, not for residential or commercial use."	tower1.jpeg	tower2.jpeg	tower3.jpeg	
+tower		tower4.jpeg			
+grandstand	main seating area/stand at a racecourse or stadium consisting of tiers with rows of individual seats that are under a protective roof. Should be a large and permanent structure.	grandstand1.jpeg	grandstand2.jpeg	grandstand3.jpeg	
+grandstand		grandstand4.jpeg	grandstand5.jpeg		
+wall	"Either: one of the sides of a room or building connecting floor and ceiling or foundation and roof. Or: a masonry fence around a garden, park, or estate."	wall0.jpeg	wall1.jpeg	wall2.jpeg	
+carpet	"floor or stair covering made from thick woven fabric, typically shaped to fit a particular room. It is homogenous throughout the whole room."	carpet-example-2.jpg	carpet-example-5.jpg	carpet-example-4.jpg	
+carpet		carpet-example-1.jpg	carpet-example-7.jpg	correct_is_carpet.jpg	
+floor-mat_rug	"a floor covering of thick woven material or animal skin -- just with limited size, covers only a small section of the floor. Includes rugs, and floor mats (door mats, bath mat). Does not include carpet."	floormat-example-2.jpg	floormatexample1.jpg	rug-example-1.jpg	
+floor-mat_rug		rug-example-2.jpg	rug-example-8.jpg	rug-example-4.jpg	
+floor-mat_rug		rug-example-3.jpg	rug-example-5.jpg	rug-example-7.jpg	
+floor-mat_rug		rug-example-6.jpg			
+floor	"The inside lower horizontal surface (as of a room, hallway, tent, or other structure). Must be indoors. This includes homogenous floor coverings that span an entire room, such as carpet, linoleum, or marble."	 			
+both_carpet_and_floormat		unlabel-example-2.jpeg	unlabel-example-3.jpeg	unlabel-example-4.jpeg	
+both_carpet_and_floormat		unlabel-example-8.jpg	unlabel-example-7.jpeg	unlabel-example-6.jpeg	
+both_carpet_and_floormat		unlabel-example-5.jpeg			
+river-lake	"River or lake. River: a large natural stream of water, with possible rapids.Lake: a body of (usually fresh) water surrounded by land. Lakes generally have very still water. Should appear naturally formed."	riverlake1.jpeg	riverlake2.jpeg	riverlake3.jpeg	
+river-lake		riverlake4.jpeg	riverlake5.jpeg	riverlake6.jpeg	
+river-lake		riverlake7.jpeg	riverlake8.jpeg		
+water-other	"all other kinds of water, e.g. puddles, ditchwater, aquariums, shallow artificially made ponds, zoo ponds, flooded areas, bathtub water, water coming out of a fire hydrant, water from a kitchen faucet, etc. Is not a lake,  river, fountain, swimming pool, or sea."	water-other3.jpeg	water-other2.jpeg	water-other1.jpeg	
+sea	"A sea or ocean. Often has large amounts of waves/surf and a sandy beach. May have surfers on surfboards. Unlike a river or a lake, one generally cannot see the far bank of a sea/ocean."	sea1.jpeg	sea2.jpeg	sea3.jpeg	
+sea		sea-example-4.jpeg	sea-example-5.jpeg	sea-example-6.jpeg	
+swimming-pool	a manmade pool that provides a facility for swimming (for people only). Often has a painted white or blue basin.	swimmingpool1.jpeg	swimmingpool2.jpeg	swimmingpool3.jpeg	
+waterfall	a steep descent of the water of a river	waterfall1.jpg	waterfall2.jpeg	waterfall3.jpeg	
+shower_curtain	fabric found next to a bathtub or shower to keep water from spilling out into the bathroom	shower-curtain-1.png	shower-curtain-2.png	shower-curtain-3.png	
+shower_curtain		shower-curtain-4.png	shower-curtain-5.png	shower-curtain-6.png	
+shower_curtain		shower-curtain-7.png	shower-curtain-8.png	shower-curtain-9.png	
+curtain_other	"(billowing, hanging fabric). any other kind of curtain which is NOT a ""shower-curtain. might be installed for privacy or for decoration around a window."	other-curtain-1.png	other-curtain-2.png	other-curtain-3.png	
+curtain_other		other-curtain-4.png	other-curtain-5.png	other-curtain-6.png	
+curtain_other		other-curtain-7.png	other-curtain-8.png		
+fountain	an ornamental structure in a pool or lake from which one or more jets of water are pumped into the air. Includes the jet of water.	fountain-example-3.jpeg	fountain-example-1.jpeg	fountain-example-2.jpeg	
+tent	"a portable shelter (usually of canvas stretched over supporting poles and fastened to the ground with ropes and pegs). For example, a camping tent."	tent1.jpeg	tent2.jpeg	tent3.jpeg	
+tent		tent4.jpeg	tent5.jpeg		
+awning	"a sheet of canvas or other material stretched on a frame and used to keep the sun or rain off a storefront, window, doorway, or deck. Should be attached to a building."	awning1.jpeg	awning2.jpeg	awning3.jpeg	
+awning		awning4.jpeg	awning5.jpeg	awning6.jpeg	
+awning		awning7.jpeg			
+freestanding-keyboard	a freestanding panel of keys that operate a computer or typewriter. Should not be part of a laptop. Connected with a cord to a computer.	freestanding-keyboard1.jpeg	freestanding-keyboard2.jpeg	freestanding-keyboard3.jpeg	
+freestanding-keyboard		freestanding-keyboard4.jpeg	freestanding-keyboard5.jpeg		
+laptop-keyboard	keyboard of a laptop	laptop-keyboard4.jpeg	laptop-keyboard1.jpeg	laptop-keyboard5.jpeg	
+laptop-keyboard		laptop-keyboard3.jpeg	laptop-keyboard2.jpeg		
+base	"podium, outdoor foodstand rack, museum exhibit stands,"				
