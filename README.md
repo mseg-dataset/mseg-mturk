@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/mseg-dataset/mseg-mturk.svg?branch=master)](https://travis-ci.com/mseg-dataset/mseg-mturk)
 
 This repo contains the **Amazon Mechanical Turk (AMT) workflow scripts** for the paper:
 
