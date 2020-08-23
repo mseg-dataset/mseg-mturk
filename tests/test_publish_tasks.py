@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 
 import glob
-import numpy as np
 import os
 from pathlib import Path
 
-from sentinel_hits import SentinelHIT
-from publish_tasks import create_write_hit_specs
+import numpy as np
+
+from mseg_mturk.publish_tasks import create_write_hit_specs
+from mseg_mturk.sentinel_hit import SentinelHIT
 
 
 def test_create_write_hit_specs():

@@ -1,33 +1,41 @@
 #!/usr/bin/python3
 
-import collections
+from typing import List, NamedTuple, Tuple
+
 from mseg.label_preparation.relabeled_data_containers import DatasetClassUpdateRecord
 
 
-SentinelHIT = collections.namedtuple(
-	typename='SentinelHIT',
-	field_names='task_nickname dataset_name classnames train_img_dir val_img_dir' + \
-		' train_bucket_name val_bucket_name sentinels sentinel_bucket_name' + \
-		' sentinel_img_dir train_result_csv val_result_csv'
-)
+class SentinelHIT(NamedTuple):
+	""" """
+	task_nickname: str
+	dataset_name: str
+	classnames: List[str]
+	train_img_dir: str
+	val_img_dir: str
+	train_bucket_name: str
+	val_bucket_name: str
+	sentinels: List[Tuple[str,str]] # represents (filename, correct category)
+	sentinel_bucket_name: Str
+	sentinel_img_dir: str
+	train_result_csv: str
+	val_result_csv: str
 
 
-# Sending through the pipeline for the second time.
-RelabeledSentinelHIT = collections.namedtuple(
-	typename='RelabeledSentinelHIT',
-	field_names=
-		'task_nickname' + \
-		' dataset_name' + \
-		' train_img_dir' + \
-		' val_img_dir' + \
-		' sentinel_img_dir' + \
-		' train_bucket_name' + \
-		' val_bucket_name' + \
-		' classnames' + \
-		' sentinel_bucket_name' + \
-		' sentinels' + \
-		' train_prior_record' + \
-		' val_prior_record' + \
-		' train_result_csv' + \
-		' val_result_csv'
-)
+# TODO: could inherit from class above for simplicity
+# Sending through the pipeline for a second or third time.
+class RelabeledSentinelHIT(NamedTuple):
+	""" """
+	task_nickname: str
+	dataset_name: str
+	train_img_dir: str
+	val_img_dir: str
+	sentinel_img_dir: str
+	train_bucket_name: str
+	val_bucket_name: str
+	classnames: List[str]
+	sentinel_bucket_name: str
+	sentinels: List[Tuple[str,str]] # represents (filename, correct category)
+	train_prior_record: DatasetClassUpdateRecord
+	val_prior_record: DatasetClassUpdateRecord
+	train_result_csv: str
+	val_result_csv: str

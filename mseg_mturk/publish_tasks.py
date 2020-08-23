@@ -2,15 +2,16 @@
 
 import csv
 import glob
-import imageio
 import math
-import matplotlib.pyplot as plt
-import numpy as np
 import os
 from pathlib import Path
 import pdb
 import random
 from typing import Any, Dict, List, Mapping, Union
+
+import imageio
+import matplotlib.pyplot as plt
+import numpy as np
 
 from mseg.utils.csv_utils import read_csv, write_csv
 from mseg.utils.txt_utils import generate_all_img_label_pair_fpaths

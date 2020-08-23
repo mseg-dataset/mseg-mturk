@@ -3,12 +3,13 @@
 from collections import defaultdict
 import csv
 from datetime import datetime
-import matplotlib.pyplot as plt
-import numpy as np
 from pathlib import Path
 import pdb
 from shutil import copyfile
 from typing import Any, List, Mapping, Tuple
+
+import matplotlib.pyplot as plt
+import numpy as np
 
 from mseg.utils.csv_utils import read_csv
 from mseg.utils.txt_utils import write_txt_lines
@@ -57,8 +58,13 @@ from mseg_mturk.hit_config.completed_sentinel_hit_instances import (
 MAX_NUM_WORKER_VOTES = 10
 
 	
-def render_each_worker_annotations(dir_savename: str, batch_csv_fname: str, img_dirpath: str, folder_per_hit: bool = True):
-	""" 
+def render_each_worker_annotations(
+	dir_savename: str,
+	batch_csv_fname: str,
+	img_dirpath: str,
+	folder_per_hit: bool = True
+):
+	"""
 		In train set, had to discard:
 			worker_id = 'A2R2YZTSME1K3F', hit_id = '3SSN80MU8CPEVNHI370TAPO2EATKXE'
 
@@ -113,7 +119,7 @@ def plot_acc_histogram(duration_acc_tuples: List[Tuple[float,float]]) -> None:
 	plot_acc_vs_duration(duration_acc_tuples)
 
 
-def plot_acc_vs_duration(duration_acc_tuples):
+def plot_acc_vs_duration(duration_acc_tuples) -> None:
 	""" Form a scatter plot to show correlation between HIT duration
 		and HIT accuracy.
 
@@ -159,7 +165,7 @@ def get_duration_from_csv_row(row):
 		return 0
 
 
-def test_get_duration_from_csv_row():
+def test_get_duration_from_csv_row() -> None:
 	"""
 	"""
 	row = {}

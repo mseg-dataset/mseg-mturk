@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-from mseg_mturk.sentinel_hit import SentinelHIT, RelabeledSentinelHIT
 from mseg.label_preparation.relabeled_data_containers import DatasetClassUpdateRecord
+
+from mseg_mturk.sentinel_hit import SentinelHIT, RelabeledSentinelHIT
 
 
 cocop_keyboard_hit = SentinelHIT(
